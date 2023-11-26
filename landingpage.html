@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="landingpage.css">
+</head>
+
+<body>
+    <!-- ------------------- Home --------------------- -->
+    <div id="header">
+        <div class="container">
+            <div class="logo">
+                DELIVERY
+            </div>
+            <nav>
+                <ul id="menubar">
+                    <Li><a src="#" onclick="closemenu()">Home</a></Li>
+                    <Li><a src="#" onclick="closemenu()">About Us</a></Li>
+                    <Li><a src="#" onclick="closemenu()">Services</a></Li>
+                    <Li><a src="#" onclick="closemenu()">Contact Us</a></Li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>
+    <div id="home">
+        <div class="home-content">
+            <div class="home-write">
+                <h1><span class="red">Order</span> products
+                    Faster & Easier.</h1>
+                <p>order your favourite foods at any<br> time and we will deliver them right to whwerer you are</p>
+                <button class="button">
+                    Get Started
+                </button>
+            </div>
+            <div class="homephoto">
+                <img src="p.jpg/3693393.jpg" alt="photo" />
+            </div>
+        </div>
+    </div>
+    <!-- -------------------- About ------------------- -->
+    <div id="about">
+        <div class="homephoto">
+            <img src="p.jpg/4702120.jpg" alt="photo" />
+        </div>
+        <div class="home-write">
+            <h1><span class="red">Find Out</span> A Little More About Us</h1>
+            <p>we are a company dedicated to the distribution of any product within time and we will deliver them right
+                to whwerer you
+                are sit amet, consectetur adipisicing </p>
+        </div>
+    </div>`
+    <div id="services">
+        <div class="servecon">
+            <div class="content">
+                <h1>Some <span class="red">Service</span>s we <br>offer</h1>
+            </div>
+            <div class="servecontent1">
+                <div class="box">
+                    <h2>Find Best product</h2>
+                    <div class="image">
+                        <img src="p.jpg/4776675.jpg" alt="photo" />
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <h3>Learn More</h3>
+                </div>
+                <div class="box">
+                    <h2>Track your product</h2>
+                    <div class="image">
+                        <img src="p.jpg/4702120.jpg" alt="photo" />
+
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <h3>Learn More</h3>
+
+                </div>
+                <div class="box">
+                    <h2>Find Best Deals</h2>
+                    <div class="image">
+                        <img src="p.jpg/3693393.jpg" alt="photo" />
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <h3>Learn More</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <h1>Contact Us</h1>
+
+        <div class="testinomials">
+            <div class="anchor">
+                <ul>
+                    <a>Our clients:</a>
+                    <li>London</li>
+                    <li>America</li>
+                    <li>Us</li>
+                    <li>Japan</li>
+                    <li>Kolkata</li>
+                </ul>
+            </div>
+            <div class="anchor">
+                <ul>
+                    <a>Our Author:</a>
+                    <li>Press in Releases</li>
+                    <li>Science</li>
+                    <li>hello hi</li>
+                    <li>Our Fashions</li>
+                    <li>collections</li>
+
+                </ul>
+            </div>
+            <div class="anchor">
+                <ul>
+                    <a>Our Release:</a>
+                    <li>Press Releases</li>
+                    <li>Science</li>
+                    <li>hello hi</li>
+                    <li>Fashions</li>
+                    <li>collections</li>
+                </ul>
+            </div>
+            <div class="anchor">
+                <ul>
+                    <a>Our Supporter:</a>
+                    <li>About Us</li>
+                    <li>Careers</li>
+                    <li>Press Release</li>
+                    <li>AmazonScience</li>
+                    <li>newzeland</li>
+
+
+                </ul>
+            </div>
+        </div>
+        <h2 class="h2">Contact us</h2>
+        <p><i class="fa-brands fa-telegram"></i>manasrpatra18@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>6969696969</p>
+        <div class="iicon">
+            <a href="https://www.linkedin.com/in/manas-ranjan-patra"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.telegram.com/@M"><i class="fa-brands fa-telegram"></i></a>
+            <a href="https://www.facebook.com/chinu.patra.948"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com/devil_manas_123?igshid=OGQ5ZDc2ODk2ZA=="><i
+                    class="fa-brands fa-instagram"></i></a>
+        </div>
+
+
+    </div>
+    <div class="footer">
+        <h3>@cpopyright#❤#manasrpatra</h3>
+
+    </div>
+    <script>
+        let sidemenu = document.getElementById("menubar");
+        const openmenu = () => {
+            sidemenu.style.left = "53%";
+        }
+        const closemenu = () => {
+            sidemenu.style.left = "100%";
+        }
+    </script>
+</body>
+
+</html>
